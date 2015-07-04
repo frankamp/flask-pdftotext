@@ -4,3 +4,4 @@ to extract text:
 
 curl -X PUT --data-binary @pdf-sample.pdf http://host_ip:5000/extract_stream
 
+build!
