@@ -68,4 +68,4 @@ def extract_stream():
 
 #     return Response(stream_with_context(generate()), mimetype="text/plain")
 
-app.run(host="0.0.0.0", debug=True)
+app.run(host="0.0.0.0", debug=False, threaded=True)
